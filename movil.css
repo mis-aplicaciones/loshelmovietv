@@ -6,5 +6,5 @@ body {
   position: absolute;
   transform: rotate(90deg);
     width: 0 auto;
-    height: calc(100% - 40px);
+    place-items: center;
 }
