@@ -3,48 +3,25 @@
 	<head>
 		<title></title> 
         <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src='playerjs.js' type='text/javascript'></script>
-	<link rel="stylesheet" href="movil.css">
-		<style type="text/css">
-			@media screen and ( orientation: landscape ) {
-    .selector {
-        ...
-    }
-}
-      @media (min-width:320px)  { 
-      /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
-          body, div, playerjs {
-          padding-right: 1em;
-          height: 100%;
-          }
-       }
-      @media (min-width:480px)  { 
-      /* smartphones, Android phones, landscape iPhone */ 
-      }
-      @media (min-width:600px)  { 
-      /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-      }
-      @media (min-width:801px)  { 
-      /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-      }
-      @media (min-width:1025px) { 
-      /* big landscape tablets, laptops, and desktops */ 
-      }
-      @media (min-width:1281px) { 
-      /* hi-res laptops and desktops */ 
-      }
-  </style>
+	<script type="text/javascript" src="pfad_a_archivo_ jquery /jquery.js"></script>
+	<script type="text/javascript">
+  $(window).bind("orientationchange", function(event){		
+  if (event.orientation)		
+    $("#contenido").html("Me han reorientado a " + event.orientation);
+});
+</script>
 	</head>
 	<body>
     <style>
         html,body{
-            border:0;margin:0;height:100%;width:100%;
+            border:0;margin:0 auto;height:100%;width:100%;
         }
-
+	
     </style>
         
-    <div id="playerjs" style="height:100%;width:100%;"></div>
+    <div id="playerjs" style="width:100%;height:100%;"></div>
         
     <script type="text/javascript">
             
