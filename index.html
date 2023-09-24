@@ -10,7 +10,15 @@
         html,body{
             border:0;margin:0;height:100%;width:100%;
         }
-	    
+	#playerjs {
+    width: 500px;
+    height: 375px;
+    /*Mirror code starts*/
+    transform: rotateY(180deg);
+    -webkit-transform:rotateY(180deg); /* Safari and Chrome */
+    -moz-transform:rotateY(180deg); /* Firefox */
+    /*Mirror code ends*/
+}
     </style>
         
     <div id="playerjs" style="transform:rotate(90deg);"></div>
