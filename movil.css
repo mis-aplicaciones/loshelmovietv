@@ -5,6 +5,7 @@ body {
 body {
   position: absolute;
   transform: rotate(90deg);
+  display:flex;
+  justify-content: center;
     width: 0 auto;
-    place-items: center;
 }
