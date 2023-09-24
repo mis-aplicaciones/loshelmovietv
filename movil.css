@@ -2,7 +2,7 @@ html,
 body {
   margin: 0; /* Because annoying default browser margins */
 }
-body {
+html {
   position: absolute;
   transform: rotate(90deg);
 
