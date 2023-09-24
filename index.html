@@ -5,6 +5,11 @@
         <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src='playerjs.js' type='text/javascript'></script>
+		<script>// Escuchar cambios de orientación
+window.addEventListener("orientationchange", function() {
+	// Hacer algo cuando cambia la orientación
+	alert(window.orientation);
+}, false);</script>
         <link rel="stylesheet" href="movil.css">
 	</head>
 	<body>
