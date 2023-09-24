@@ -2,11 +2,6 @@ html,
 body {
   margin: 0; /* Because annoying default browser margins */
 }
-div {
-  position: absolute;
-  transform: rotate(90deg);
-}
-playerjs {
-position: absolute;
-transform: rotate(90deg);
+.rota-horizontal{
+    transform: scaleX(-1);
 }
