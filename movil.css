@@ -1,7 +1,7 @@
-html,
+html { background-color: #000; } 
 body {
-  margin: 0; /* Because annoying default browser margins */
-}
-.rota-horizontal{
-    transform: scaleX(-1);
+    min-height: 100vh;
+    max-width: 400px;
+    background-color: papayawhip; 
+    margin: 0 auto;
 }
