@@ -1,4 +1,4 @@
 html { background-color: #000; } 
-body {
+body,playerjs {
     transform:rotate(90deg);
 }
