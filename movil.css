@@ -4,5 +4,5 @@
 }
 */
 body, playerjs {
-    screen.orientation.lock('landscape');
+    screen.orientation.lock("landscape-primary");
 }
