@@ -4,6 +4,5 @@
 }
 */
 body, playerjs {
-    orientation: landscape;
-
+    screen.orientation.lock('landscape');
 }
